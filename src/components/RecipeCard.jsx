@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 
 function RecipeCard({ recipe }) {
@@ -86,6 +87,18 @@ function RecipeCard({ recipe }) {
           </a>
         </div>
       </div>
+=======
+import React from "react";
+
+function RecipeCard({ recipe }) {
+  return (
+    <div className="recipe-card">
+      <img src={recipe.strMealThumb} alt={recipe.strMeal} />
+      <h3>{recipe.strMeal}</h3>
+      <a href={recipe.strSource || recipe.strYoutube} target="_blank" rel="noreferrer">
+        View Recipe
+      </a>
+>>>>>>> 713dca0df01fb7d97cdec6ea3cbbc84130f4c7b0
     </div>
   );
 }
