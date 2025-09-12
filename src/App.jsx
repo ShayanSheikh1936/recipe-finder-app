@@ -84,7 +84,7 @@ function App() {
       <Navbar />
       {/* Jumbotron/Header */}
       <header className="w-full bg-gradient-to-b from-[#f8f5f0] to-[#f3ede6] py-12 px-4 flex flex-col items-center border-b border-gray-200">
-        <h1 className="text-5xl font-serif font-bold mb-2 text-center text-gray-800 drop-shadow">Welcome to MyRecipes</h1>
+        <h1 className="text-5xl font-serif font-bold mb-2 text-center text-gray-800 drop-shadow">Welcome to Delight Recipe</h1>
         <p className="text-lg text-gray-600 mb-6 text-center max-w-xl">Discover, search, and save your favorite recipes from around the world. Start your culinary journey now!</p>
         <div className="w-full max-w-md">
           {/* Search bar section (copied from previous search bar) */}
@@ -172,7 +172,7 @@ function App() {
       </main>
       {/* Footer */}
       <footer className="w-full bg-white border-t border-gray-200 py-4 mt-8 text-center text-gray-500 text-sm font-serif">
-        &copy; {new Date().getFullYear()} MyRecipes. All rights reserved. Developed by <a href="#" className="text-purple-500 hover:text-purple-600">Shayan Sheikh Team</a>
+        &copy; {new Date().getFullYear()} Delight Recipe. All rights reserved. Developed by <a href="#" className="text-purple-500 hover:text-purple-600">Shayan Sheikh Team</a>
       </footer>
     </div>
   );
