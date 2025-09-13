@@ -32,13 +32,6 @@ function About() {
               </ul>
             </div>
           </div>
-          <div className="bg-gradient-to-r from-purple-100 to-yellow-100 rounded-2xl shadow p-6 flex flex-col items-center">
-            <h3 className="text-2xl font-bold text-purple-600 mb-2 flex items-center gap-2"><span>👨‍🍳</span> Meet the Team</h3>
-            <div className="flex flex-col items-center gap-1">
-              <span className="font-bold text-lg">Shayan Sheikh Team</span>
-              <span className="text-gray-600">Passionate about food and technology!</span>
-            </div>
-          </div>
         </div>
       </div>
       <footer className="w-full bg-white border-t border-gray-200 py-4 text-center text-gray-500 text-sm font-serif shadow-inner animate-fade-in">
